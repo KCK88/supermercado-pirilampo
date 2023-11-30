@@ -1,7 +1,7 @@
 const stockProducts = require('./data.json');
 
 const getUniqueProductsAmount = () => {
-  // Desenvolva seu código dentro dessa função...
+  const uniqueProducts = stockProducts.length;
+  return uniqueProducts;
 };
-
 module.exports = { getUniqueProductsAmount };
