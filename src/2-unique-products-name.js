@@ -1,7 +1,11 @@
 const stockProducts = require('./data.json');
 
 const getUniqueProductsName = () => {
-  // Desenvolva seu código dentro dessa função...
+  let uniqueProductsName = [];
+  for (let index = 0; index < stockProducts.length; index += 1) {
+    uniqueProductsName.push(stockProducts[index].productName);
+  }
+  return uniqueProductsName;
 };
-
+console.log(getUniqueProductsName());
 module.exports = { getUniqueProductsName };
