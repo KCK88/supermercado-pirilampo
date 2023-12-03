@@ -12,5 +12,4 @@ const searchProductsByBrand = (string) => {
   }
   return productsByBrand;
 };
-console.log(searchProductsByBrand('Hortifruti'));
 module.exports = { searchProductsByBrand };
