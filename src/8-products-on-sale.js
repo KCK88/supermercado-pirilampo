@@ -13,5 +13,4 @@ const getProductsOnSale = () => {
   }
   return productsOnSale;
 };
-console.log(getProductsOnSale());
 module.exports = { getProductsOnSale };
