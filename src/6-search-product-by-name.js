@@ -12,8 +12,3 @@ const searchProductByName = (string) => {
   return null;
 };
 module.exports = { searchProductByName };
-
-// let object = {};
-// console.log(object.name = 'air max');
-// console.log(object.condition = 'new');
-// console.log(object);
